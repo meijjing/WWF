@@ -281,7 +281,7 @@ header {
 .section_main .mSwiper {
   width: 100%;
   height: 300px;
-
+  position: relative;
 }
 
 .section_main .m_slide {
