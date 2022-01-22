@@ -340,6 +340,10 @@ header {
   border: 1px solid #ffa500;
   outline: 0;
   box-sizing: border-box;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -587,6 +591,11 @@ header {
   padding: 30px 20px;
   color: #8c8c8c;
 }
+
+.payment .info_box1 > ul > li,
+.payment .info_box2 > li > li {
+  line-height: 1.25;
+} 
 
 .payment .info_box2 {
   width: 100%;
